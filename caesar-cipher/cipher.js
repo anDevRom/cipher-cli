@@ -4,11 +4,11 @@ const UPPERCASE_END = 90
 const LOWERCASE_START = 97
 const LOWERCASE_END = 122
 
-const encoder = (text, shift) => {
-    const symbols = text.split('')
+const cipher = (chunk, shift) => {
+    const symbols = chunk.split('')
 
     const result = symbols.map(symbol => {
-        const symbCode = symbol.charCodeAt(0)
+        const symbCode = symbol.charCodeAt()
 
         if (
             !(UPPERCASE_START <= symbCode && symbCode <= UPPERCASE_END) &&
@@ -35,4 +35,4 @@ const encoder = (text, shift) => {
     return result.join('')
 }
 
-module.exports = encoder
+module.exports = cipher
