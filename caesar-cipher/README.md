@@ -4,7 +4,7 @@
 2. Install [Git](https://git-scm.com/)
 3. Clone repository in your directory, for that enter this command in terminal:
    
-    >git clone https://github.com/rolling-scopes-school/andevrom-NODEJS2021Q2.git -b task-1/caesar-cipher
+    >git clone https://github.com/anDevRom/cipher-cli.git -b task-1/caesar-cipher
    > 
 4. Enter this command for change directory:
     
